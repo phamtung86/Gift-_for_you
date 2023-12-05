@@ -5,7 +5,7 @@ btn[0].addEventListener("click",function () {
     console.log(user);
     console.log(password);
     let count;
-    if(user.toLowerCase() == "nguyenthilananh" && password.toLowerCase() == "27092004"){
+    if(user.toLowerCase() == "nguyenthilananhne" && password.toLowerCase() == "27092004"){
         confirm("Bạn giỏi quá cùng đi tiếp nhé");
         count = 1;
         if(count == 1){
