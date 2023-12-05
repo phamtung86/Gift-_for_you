@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+}
+.nav{
+    height: 10rem;
+    width: 100%;
+    font-family: Rubik Bubbles;
+    font-size: 70px;
+    background-color: hotpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-nav{
+    padding: 0;
+    margin: 0;
+}
+.background{
+    height: 40rem;
+    width: 100%;
+    /* background-image: url(https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg); */
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.card--login{
+    height: 30rem;
+    width: 30rem;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 5rem;
+   
+}
+.introduce--login{
+    height: 17rem;
+    width: 100%;
+    background-color: hotpink;
+    padding: 5px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.introduce--image{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+
+}
+.image--introduce{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.text--introduce{
+    font-size: 20px;
+    font-family: Aoboshi One;
+}
+.fill--login{
+    width: 100%;
+    height: 13rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hotpink;
+}
+#account--user,#account--password{
+    margin: 10px 10px;
+    width: 80%;
+    padding: 10px 10px;
+}
+.account--click{
+    padding: 5px 5px;
+}
