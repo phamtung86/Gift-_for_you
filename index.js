@@ -9,7 +9,7 @@ btn[0].addEventListener("click",function () {
         confirm("Bạn giỏi quá cùng đi tiếp nhé");
         count = 1;
         if(count == 1){
-            window.open('');
+            window.open('https://phamtung86.github.io/gift-for-you_content/');
         }
     }
     else {
